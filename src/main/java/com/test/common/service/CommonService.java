@@ -18,7 +18,7 @@ public class CommonService {
 	static class CommonWordInFile {
 		Set<String> words;
 		CommonWordInFile() {
-			words = new TreeSet<String>();
+			words = new HashSet<String>();
 		}
 	}
 	public Set<String> findCommon(FilesDTO files) throws Exception {
